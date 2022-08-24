@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Ashvedov\\EmailValidator\\": "src/"
+            "Src\\": "src/"
         }
     },
     "authors": [
@@ -14,5 +14,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "guzzlehttp/guzzle": "7.4.x-dev"
+    }
 }
