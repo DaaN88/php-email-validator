@@ -1,0 +1,20 @@
+{
+    "name": "ashvedov/email-validator",
+    "description": "email valiadotr library",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anton Shvedov"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "7.4.x-dev"
+    }
+}
