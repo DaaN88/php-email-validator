@@ -13,13 +13,11 @@ final class EmailValidatorService
 
     public function __construct(string|array $emails)
     {
-        $tmp_email = $emails;
-
-        if (is_string($tmp_email)) {
-            $tmp_email = [$tmp_email];
+        if (is_string($emails)) {
+            $emails = [$emails];
         }
 
-        $this->emails = $tmp_email;
+        $this->emails = $emails;
     }
 
     /**
